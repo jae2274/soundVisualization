@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="/canvasjs.min.js"></script> -->
+    
+    <title>Document</title>
+    <style>
+        canvas{
+            width:1080px;
+            height: 480px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="timeDomain"></canvas>
+    <canvas id="frequency"></canvas>
+    <audio src="/GRiZ (feat. Cherub) - PS GFY.mp3" type="audio/mpeg"></audio>
+    <select id="voice">
+        <option value="distortion">distortion</option>
+        <option value="biquad">biquad</option>
+        <option value="off">off</option>
+    </select>
+    <select id="visual">
+        <option value="sinewave">sinewave</option>
+        <option value="off">off</option>
+    </select>
+    <button class="playBtn">Play</button>
+    <button class="mute">Mute</button>
+    <script src="/example.js"></script>
+</body>
+</html
